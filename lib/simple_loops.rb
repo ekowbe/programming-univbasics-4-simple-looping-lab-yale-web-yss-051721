@@ -31,4 +31,5 @@ def return_string_array(arr)
     arr_stringified << arr[count].to_s
     count += 1
   end
+  arr_stringified
 end
