@@ -20,5 +20,6 @@ def output_array(msg)
   count = 0
   while msg[count] do
     puts msg[count]
+    count += 1
   end
 end
