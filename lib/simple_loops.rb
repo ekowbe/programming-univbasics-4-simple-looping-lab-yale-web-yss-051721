@@ -23,3 +23,12 @@ def output_array(msg)
     count += 1
   end
 end
+
+def return_string_array(arr)
+  arr_stringified = []
+  count = 0 
+  while arr[count] do 
+    arr_stringified << arr[count].to_s
+    count += 1
+  end
+end
