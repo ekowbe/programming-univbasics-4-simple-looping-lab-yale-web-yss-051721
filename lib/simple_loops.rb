@@ -17,5 +17,8 @@ def loop_message_n_times(msg, limit)
 end
 
 def output_array(msg)
-  len = msg.length
-  while ou
+  count = 0
+  while msg[count] do
+    puts msg[count]
+  end
+end
